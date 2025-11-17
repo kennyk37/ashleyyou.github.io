@@ -50,7 +50,7 @@
         }
         .fact-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(180,120,200,0.25); }
         .gallery {
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 20px;
+            display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 20px;
         }
         .artwork-card {
             background: white; border-radius: 20px; overflow: hidden;
@@ -58,6 +58,9 @@
         }
         .artwork-card:hover { transform: translateY(-8px); box-shadow: 0 15px 40px rgba(180,120,200,0.3); }
         .artwork-image img { width: 100%; height: 250px; object-fit: cover; display: block; }
+        .artwork-description { padding: 15px; }
+        .artwork-title { font-size: 1.2em; font-weight: 600; color: #7d5ba6; margin-bottom: 5px; }
+        .artwork-text { font-size: 0.95em; color: #6b5580; }
     </style>
 </head>
 <body>
@@ -81,7 +84,26 @@
             <div class="fun-facts">
                 <div class="fact-card"><div class="fact-icon">🌈</div><div class="fact-text">Favorite colors: Purple and teal.</div></div>
                 <div class="fact-card"><div class="fact-icon">🖌️</div><div class="fact-text">Loves art and painting.</div></div>
-                <div class="fact-card"><div class="fact-icon">✨</div><div class="fact-text">Enjoy reading, fishing, hangman, swimming, and ASMR.                <div class="artwork-card">
+                <div class="fact-card"><div class="fact-icon">✨</div><div class="fact-text">Enjoy reading, fishing, hangman, swimming, and ASMR.</div></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>My Artwork (Work in Progress)</h2>
+            <div class="gallery">
+                <div class="artwork-card">
+                    <div class="artwork-image"><img src="https://github.com/kennyk37/ashleyyou.github.io/raw/main/IMG_0152.jpg"></div>
+                    <div class="artwork-description"><div class="artwork-title">Sunset Dreams</div><div class="artwork-text">A magical dreamscape inspired by warm glowing colors.</div></div>
+                </div>
+                <div class="artwork-card">
+                    <div class="artwork-image"><img src="https://github.com/kennyk37/ashleyyou.github.io/raw/main/IMG_1515.jpg"></div>
+                    <div class="artwork-description"><div class="artwork-title">The Ones Who Carry My Heart</div><div class="artwork-text">A collection of portraits of people I love.</div></div>
+                </div>
+                <div class="artwork-card">
+                    <div class="artwork-image"><img src="https://github.com/kennyk37/ashleyyou.github.io/raw/main/IMG_2018%20(1).jpg"></div>
+                    <div class="artwork-description"><div class="artwork-title">Starry Wishes</div><div class="artwork-text">A night sky full of stars and dreams.</div></div>
+                </div>
+                <div class="artwork-card">
                     <div class="artwork-image"><img src="https://github.com/kennyk37/ashleyyou.github.io/raw/main/IMG_2625.jpg"></div>
                     <div class="artwork-description"><div class="artwork-title">Soft Glow</div><div class="artwork-text">A quiet moment captured in warm lighting.</div></div>
                 </div>
@@ -132,25 +154,6 @@
                 <div class="artwork-card">
                     <div class="artwork-image"><img src="https://github.com/kennyk37/ashleyyou.github.io/raw/main/a5ea71bb40df7bebb6540a89fb05da_livephoto.jpg"></div>
                     <div class="artwork-description"><div class="artwork-title">Live Photo</div><div class="artwork-text">A dynamic moment frozen in time.</div></div>
-                </div>
-$1
-
-        <div class="section">
-            <h2>My Artwork (Work in Progress)</h2>
-            <div class="gallery">
-                <div class="artwork-card">
-                    <div class="artwork-image"><img src="https://github.com/kennyk37/ashleyyou.github.io/raw/main/IMG_0152.jpg"></div>
-                    <div class="artwork-description"><div class="artwork-title">Sunset Dreams</div><div class="artwork-text">A magical dreamscape inspired by warm glowing colors.</div></div>
-                </div>
-
-                <div class="artwork-card">
-                    <div class="artwork-image"><img src="https://github.com/kennyk37/ashleyyou.github.io/raw/main/IMG_1515.jpg"></div>
-                    <div class="artwork-description"><div class="artwork-title">The Ones Who Carry My Heart</div><div class="artwork-text">A collection of portraits of people I love.</div></div>
-                </div>
-
-                <div class="artwork-card">
-                    <div class="artwork-image"><img src="https://github.com/kennyk37/ashleyyou.github.io/raw/main/IMG_2018%20(1).jpg"></div>
-                    <div class="artwork-description"><div class="artwork-title">Starry Wishes</div><div class="artwork-text">A night sky full of stars and dreams.</div></div>
                 </div>
             </div>
         </div>
